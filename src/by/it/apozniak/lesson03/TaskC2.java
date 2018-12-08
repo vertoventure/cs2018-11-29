@@ -21,11 +21,19 @@ package by.it.apozniak.lesson03;
 */
 public class TaskC2 {
 
+static int sumDigitsInNumber (int zzz) {
+    int sum =0;
+    int pos3=zzz/1000;
+    int pos2=zzz/100%10;
+    int pos1=zzz/10%10;
+    int pos0=zzz/1%10;
+    return pos0+pos1+pos2+pos3;
+
+}
 
 
-
-//    public static void main(String[] args) {
-//        System.out.println(sumDigitsInNumber(5467));
-//    }
+ public static void main(String[] args) {
+  System.out.println(sumDigitsInNumber(5467));
+   }
 
 }
