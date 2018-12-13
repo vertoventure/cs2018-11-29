@@ -23,6 +23,31 @@ package by.it.apozniak.lesson04;
 десять умножить на десять равно сто
 */
 
-public class TaskC3 {
 
+public class TaskC3 {}
+   /* static String getText(int i) {
+
+        switch (i) {
+            case 1:
+                return "один";
+
+        }
+        int d = i / 10;
+        int e = i % 10;
+        String end = e == 0 ? "" : " " + getText(e);
+        switch (d) {
+            case 2:
+                return "двадцать" + end;
+
+        }
+    }
+
+    public static void main(String[] args) {
+        for (int i = 2; i <= 10; i++) {
+            for (int j=2; j<=10; j++)
+            {
+            System.out.println(getText(i));
+        }
+    }
 }
+*/

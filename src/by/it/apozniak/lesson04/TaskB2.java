@@ -28,7 +28,8 @@ public class TaskB2 {
     public static void main(String[] args)
     {
 
-        int size = 1, n = 1;
+        int size = 1;
+        int n = 1;
         while(size<=10)
         {
             System.out.print(size+" ");

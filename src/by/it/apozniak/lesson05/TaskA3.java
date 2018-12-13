@@ -13,6 +13,34 @@ package by.it.apozniak.lesson05;
 0 9
 */
 
-public class TaskA3 {
+import java.util.ArrayList;
+import java.util.Scanner;
 
+public class TaskA3 {
+  //  static void findMinMax (int [] array)
+ //   {
+ //       int max = Integer.MAX_VALUE;
+ //       int mix = Integer.MIN_VALUE;
+
+    //    findMinMax(array);
+    //    int min =array[0];
+     //   int max=array[0];
+
+     //   for (int i = 1; i < array.length; i++) {
+     //       if (array[i]<min)
+      //          min =array [i];
+      //      if (array [i] > max)
+      //          max = array[i];
+
+    //    }
+ //   }
+ //   public static void main(String[] args) {
+  //      Scanner scanner=new Scanner(System.in);
+   //     int[] array = new int[10];
+    //    for (int i = array.length - 1; i >= 0; i--) {
+    //        array[i]=scanner.nextInt();
+
+     //   }
+
+   // }
 }

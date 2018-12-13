@@ -24,6 +24,23 @@ package by.it.apozniak.lesson05;
 */
 
 
-public class TaskA1 {
+import java.util.Scanner;
 
+public class TaskA1 {
+    public static void main(String[] args) {
+        int[] array=new int[10];
+        Scanner sc=new Scanner(System.in);
+        for (int i=array.length-1;i>=0; i--)
+        {
+            array[i]=sc.nextInt();
+
+        }
+        for(int i =0; i<array.length; i++)
+        {int element = array[i];
+
+            array[i]=sc.nextInt();
+
+
+        System.out.println(element);}
+    }
 }
